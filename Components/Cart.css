@@ -1,0 +1,128 @@
+.Cart {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+<<<<<<< HEAD
+  background-image: url('https://img.freepik.com/free-vector/bons-foot-prints-pattern-background_1374-18.jpg?size=626&ext=jpg&ga=GA1.1.1415426060.1719418825&semt=ais_hybrid');
+  background-size: cover;
+  background-position: center;
+=======
+>>>>>>> 25878366038e0948ccec78c42f66448fc5c77caa
+}
+
+.navigation-arrows {
+  margin-bottom: 20px;
+}
+
+.arrow-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #f7f1f1;
+}
+
+.cart-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.cart-container {
+  width: 80%; 
+  max-width: 1200px; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgba(249, 249, 249, 0.9); 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.order-summary {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex: 1;
+  color: #333;
+}
+
+.remove-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #c0392b;
+}
+
+.cart-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.payment-button {
+  background-color: #4a3929;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.payment-button:hover {
+  background-color: #3b2a1b;
+<<<<<<< HEAD
+=======
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+>>>>>>> 25878366038e0948ccec78c42f66448fc5c77caa
+}
